@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0" />
+        <!-- styles -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+<nav>
+    <ul class="nav-bar-ul">
+      <li><a href="#structure">Day structure</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+    </ul>
+  </nav>
+  
+  <header>
+    <h1>
+           IronSkydive
+    </h1>
+    <h2>Let the trip begin</h2>
+    <aside class="quote">
+      <p><i>Do it.</i></p>
+    </aside>
+  </header>
+  
+  <section id="general-information" class="dark-background">
+    <article class="container">
+      <h3>Hello!</h3>
+      <p class="text">Welcome to Iron Skydive.</p>
+      <a class="link-btn" href="#">Learn More</a>
+    </article>
+    <article class="container">
+      <h3>About us</h3>
+      <p class="text">Practicing sport... and more.</p>
+      <a class="link-btn" href="#">Watch video</a>
+    </article>
+    <article class="container">
+      <h3>Wanna join?</h3>
+      <p class="text">Join our fitness program and get started.</p>
+      <a class="link-btn" href="#">Register</a>
+    </article>
+  </section>
+  
+  <section id="structure" class="container">
+    <div>
+      <article class="service-box">
+        <img 
+          src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png"
+          alt="Training image"
+        />
+        <h4>1. Training</h4>
+        <p>We teach all the necessary things to jump from the plane without any kind of problem.</p>
+      </article>
+      <article class="service-box">
+        <img 
+          src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png"
+          alt="Get ready image"
+        />
+        <h4>2. Get ready</h4>
+        <p>You are already prepared, you just need suit and parachute. All sizes available.</p>
+      </article>
+      <article class="service-box">
+        <img 
+          src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png"
+          alt="Fly image"
+        />
+        <h4>3. Fly</h4>
+        <p>You are ready, and the plane is waiting for us in the hangar. Let's fly!</p>
+      </article>
+      <article class="service-box">
+        <img 
+          src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png"
+          alt="Jump Image"
+        />
+        <h4>4. Jump!</h4>
+        <p>You have done the most complicated. Just one step left. Jump!</p>
+      </article>
+    </div>
+  </section>
+  
+  <section id="team" class="dark-background">
+    <h3>Team</h3>
+    <p class="section-text">Our team has 75 years of total experience.</p>
+    <hr />
+    <div>
+      <article>
+        <h4 class="member-name">Harold Rothstein</h4>
+      </article>
+      <article>
+        <h4 class="member-name">Susan Phillips</h4>
+      </article>
+      <article>
+        <h4 class="member-name">Taylor Roberts</h4>
+      </article>
+    </div>
+  </section>
+  
+  <section class="container">
+    <h3>Schedule</h3>
+    <h3>Schedule a Time Slot</h3>
+    <form class="slot-form" action="/register" method="post">
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email"/>
+      
+      <label for="participants">Participants:</label>
+      <input type="number" id="participants" placeholder="number of participants"/>
+      
+      <label for="date">Date:</label>
+      <input type="date" id="date" />
+      
+      <label for="time">Time:</label>
+      <select id=time>
+        <option value="early">9:00</option>
+        <option value="mid">10:00</option>
+        <option value="late">11:00</option>
+      </select>
+      
+      <label for="time">Time</label>
+      <input />
+      
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  
+  <table class="schedule-table">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>9:00 - 11:00</td>
+        <td></td>
+        <td></td>
+        <td>X</td>
+        <td></td>
+        <td>X</td>
+        <td>X</td>
+      </tr>
+      <tr>
+        <td>12:00 - 14:00</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>X</td>
+        <td>X</td>
+      </tr>
+      <tr>
+        <td>15:00 - 17:00</td>
+        <td></td>
+        <td></td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <footer class="dark-background footer">
+    <section>
+      <h5>Contact information</h5>
+      <address class="address"><i>IronSkydive <br/> 33, <br/> Spain</i>       </address>
+      <h5>Follow Us</h5>
+      <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </section>
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.142047744348!2d2.3354330160472316!3d48.87456857928921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e38f817b573%3A0x48d69c30470e7aeb!2sIronhack!5e0!3m2!1sen!2ses!4v1495208746099"
+    class="map-frame"
+    frameborder="0"
+    style="border:0"
+    allowfullscreen
+  ></iframe>
+  
+  </footer>
+</html>
